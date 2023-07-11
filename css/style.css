@@ -1,0 +1,103 @@
+body{
+    padding: 0 13%;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+/* css de la nav bar */
+nav {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    gap: 3%;
+}
+
+nav a {
+    color: black;
+}
+
+/* ici le css nav bar en mode pc */
+.topnav {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 1em 0.5em;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+nav img {
+    width: 3em;
+    height: 2em;
+}
+
+.reservation .bouton{
+    background-color: rgb(233, 177, 23);
+    padding: 25%;
+}
+
+/*style des deux sections*/
+.section{
+display: grid;
+grid-template-columns: 70% 30%;
+}
+/* style de la section une */
+.sectionUne .gauche{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#grosTitre{
+    width: 50%;
+}
+
+.sectionUne .bouton{
+    padding:2%;
+    background-color: #000000;
+    color : #fff;
+}
+
+#listeSalles li{
+    padding: 10%
+}
+
+/*style de la section deux*/
+.sectionDeux .gauche{
+ display:grid;
+ grid-template-columns: 50% 50%;
+}
+
+.imgAccueil{
+    width: 85%;
+}
+
+.sectionDeux .bouton{
+    padding: 4% 7%;
+    border: #000000 solid 1px;
+}
